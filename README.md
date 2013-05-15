@@ -1,29 +1,31 @@
 Gravity
 =======
-Gravity applies a pretty simple transformation to the characters in the current
-buffer. Just type :Gravity.
+Gravity applies a pretty simple transformation to the characters in the
+	current buffer. Just type `:Gravity`.
 
-BEFORE:
-     ______________ 
-    < Hello World! >
-     -------------- 
-            \   ^__^
-             \  (oo)\_______
-                (__)\       )\/\
-                    ||----w |
-                    ||     ||
+_BEFORE:_
 
-AFTER:
-                __              
-                d!_             
-            __  --->\           
-      _____ Wo__^__^\_      )   
-     _Hello_--rl(oo)||______|   
-    <-------\\--(__)||----w||\/\
+	 ______________ 
+	< Hello World! >
+	 -------------- 
+	        \   ^__^
+	         \  (oo)\_______
+	            (__)\       )\/\
+	                ||----w |
+	                ||     ||
+
+_AFTER:_
+
+	            __              
+	            d!_             
+	        __  --->\           
+	  _____ Wo__^__^\_      )   
+	 _Hello_--rl(oo)||______|   
+	<-------\\--(__)||----w||\/\
 
 System Requirements
 ===================
-- Vim built with python support (vim --version | grep +python)
+- Vim built with python support (`vim --version | grep +python`)
 
 Installation
 ============
